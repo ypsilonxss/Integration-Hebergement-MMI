@@ -1,0 +1,53 @@
+/* --- Variables globales --- */
+:root {
+  --pri: #2563eb; --txt: #1f2937; --bg: #fff; --alt: #f9fafb; 
+  --sp: 1.5rem; /* Légèrement augmenté pour le confort visuel */
+  --cont: 1000px;
+}
+
+/* --- Base & Conteneur --- */
+body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; color: var(--txt); }
+
+.container {
+  max-width: var(--cont);
+  margin: 0 auto;
+  padding: 0 var(--sp); /* Gère l'espace sur les côtés */
+}
+
+/* --- Header --- */
+header { background: var(--alt); padding: 1rem 0; }
+header .container { display: flex; justify-content: space-between; align-items: center; }
+header nav ul { display: flex; list-style: none; gap: var(--sp); margin: 0; }
+header a { text-decoration: none; color: var(--txt); font-weight: 600; transition: 0.2s; }
+
+/* --- Hero --- */
+.hero {
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  min-height: 60vh; text-align: center;
+}
+.cta {
+  display: inline-block; margin-top: 1rem; padding: 0.8rem 1.5rem;
+  background: var(--pri); color: #fff; border-radius: 5px; text-decoration: none; font-weight: 600;
+}
+.cta:hover { filter: brightness(1.1); }
+
+/* --- Projets (Grille) --- */
+#projets {
+  padding: 2rem 0; display: grid; gap: var(--sp);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.carte {
+  padding: var(--sp); background: var(--alt); border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.carte:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+
+/* --- À propos & Footer --- */
+#apropos { padding: 2rem 0; }
+footer { padding: 2rem 0; text-align: center; background: var(--alt); }
+
+/* --- Responsive (< 600px) --- */
+@media (max-width: 600px) {
+  header .container { flex-direction: column; gap: 0.5rem; }
+  header nav ul { flex-direction: column; gap: 0.5rem; }
+}
