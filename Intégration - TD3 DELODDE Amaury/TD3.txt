@@ -1,0 +1,3 @@
+L’événement est le clic de l’utilisateur sur un élément (l’icône « s’abonner » sur YouTube par exemple). L'état du site change, il passe du mode "s’abonner" au mode "abonné". Le rendu est la typographie et la couleur qui changent, on voit visuellement une animation qui passe sur « abonné » et la couleur du bouton devient grise pour montrer que le rendu a opéré. 
+
+Pour la fonction classList.toggle, elle permet de modifier les couleurs ou les tailles directement en JavaScript, on gère grâce à ce langage les classes CSS sur un élément. Le CSS gère donc uniquement le style, le design et le JavaScript « indique » comment et quand afficher les classes.
