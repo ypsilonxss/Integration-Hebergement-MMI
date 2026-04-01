@@ -1,0 +1,25 @@
+Livrable 4
+
+<body>
+	<header>
+		<nav>
+		Logo
+		Barre de recherche
+		Menu de navigation
+		</nav>
+	</header>
+	<main>
+		<section class="hero">
+			<h1>Titre principal</h1>
+			<button>CTA</button>
+		</section>
+		<section class="products">
+			<article>Carte produit</article>
+			<article>Carte produit</article>
+			<article>Carte produit</article>
+		</section>
+	</main>
+	<footer>
+		Mentions légales · FAQ · Support · Réseaux sociaux
+	</footer>
+</body>

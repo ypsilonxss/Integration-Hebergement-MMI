@@ -1,0 +1,21 @@
+Livrable 7 
+
+Le site analysé est toujours Casper.
+
+1. Barre de recherche
+
+    États : Fermée mais visible / Ouverte au clic.
+
+    Géré par : JavaScript
+
+2. Bouton "Mon panier" (CTA)
+
+    États : Normal / Hover
+
+    Géré par : CSS (:hover)
+
+3. Choix de taille de matelas
+
+    États : Non sélectionné / Sélectionné / Indisponible
+
+    Géré par : JavaScript et CSS (pour modifier l'apparence visuelle).

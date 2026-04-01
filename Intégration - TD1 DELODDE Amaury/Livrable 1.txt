@@ -1,0 +1,20 @@
+Livrable 1
+
+Site analysé pour l'ensemble des livrables : Casper
+
+1.1 - 1) Grandes zones visuelles
+•	Bandeau principal (hero) avec image + message clé
+•	Sections produits (matelas, oreillers, linge…)
+•	Blocs de réassurance (essai 100 nuits, livraison gratuite, garantie)
+
+           2) Ce qui attire l’œil en premier
+•	La grande image du haut
+•	Le titre principal
+•	Les boutons d’action (CTA)
+
+           3) Éléments répétés
+•	Même structure image + titre + bouton
+•	Icônes pour les avantages
+•	Couleurs et typographies cohérentes
+
+1.2 - Les zones principales sont le header avec nav. On a main avec le contenu principal avec les produits. Enfin le footer avec les filtres, les réseaux sociaux et ce qui est en rapport avec le support.

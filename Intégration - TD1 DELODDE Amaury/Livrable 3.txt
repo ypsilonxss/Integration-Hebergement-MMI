@@ -1,0 +1,7 @@
+Livrable 3
+
+N°	Rôle du bloc	Réutilisable ?	Balise HTML
+1	En-tête du site avec barre de recherche et rubriques permettant à l'utilisateur de trouver un produit	Oui, le header est identique sur la quasi-totalité du site	<header> <nav>
+2	Call To Action : inciter le client à acheter dès la zone "above the fold" (titre + CTA)	Non, le Hero + CTA s'utilisent uniquement sur la page principale	<section>
+3	Contenu principal de la page	Non, ils sont quasiment uniques	<main> <section> <article>
+4	Pied de page avec mentions légales, FAQ, réseaux sociaux, support et filtres produits	Oui, le footer est identique sur la quasi-totalité du site	<footer>

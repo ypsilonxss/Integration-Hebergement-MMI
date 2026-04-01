@@ -1,0 +1,10 @@
+Livrable 6
+
+Élément						HTML / CSS / JS			Pourquoi ?
+Ordre des blocs dans la page			HTML				Définit la structure du document.
+Couleur du bouton				CSS				Gère l'apparence visuelle.
+Menu qui s'ouvre au clic			JavaScript			Modifie le comportement de la page suite l'action de l'utilisateur.
+Titre de niveau 1				HTML				Indique la taille du titre (ici de niveau 1 donc c'est le plus grand).
+Animation au survol				CSS				Utilise des classes pour réaliser cet effet.
+Liste de produits				HTML				Construit autour d'une architecture précise.
+Modal qui apparaît				JavaScript			Déclenche l'affichage d'un nouvel élément sur l'interface.
